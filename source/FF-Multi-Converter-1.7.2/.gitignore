@@ -1,0 +1,6 @@
+# Ignore these files
+MANIFEST
+build/
+dist/
+locale/*.qm
+*.pyc
