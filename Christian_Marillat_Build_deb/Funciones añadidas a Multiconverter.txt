@@ -42,8 +42,8 @@ document_formats = {
         'odp' : ['pdf', 'ppt', 'pptx'],
         'ods' : ['pdf'],
         'odt' : ['doc', 'docx', 'html', 'pdf', 'rtf', 'sxw', 'txt','xml'],
+        'pptx' : ['ppt'],
         'ppt' : ['odp'],
-        'pptx' : ['odp'],
         'rtf' : ['odt'],
         'sdw' : ['odt'],
         'sxw' : ['odt'],
@@ -61,7 +61,8 @@ docx a pdf
 docx a txt (probado)
 odp a pptx
 odt a docx
-pptx a odp 
+pptx a ppt 
+ppt a odp
 xlsx a ods
 xml a docx
         
