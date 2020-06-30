@@ -38,12 +38,13 @@ ahora le he añadido lo siguiente:
 document_formats = {
         'doc' : ['odt', 'pdf', 'txt', 'rtf'],
         'docx' : ['odt', 'pdf', 'txt', 'rtf'],
-        'html' : ['odt'],
-        'odp' : ['pdf', 'ppt', 'pptx'],
+        'fodt' : ['odt', 'pdf', 'txt', 'rtf'],
+        'html' : ['odt', 'txt'],
+        'odp' : ['pdf', 'ppt', 'pptx', 'html'],
         'ods' : ['pdf'],
         'odt' : ['doc', 'docx', 'html', 'pdf', 'rtf', 'sxw', 'txt','xml'],
+        'ppt' : ['odp', 'pptx'],
         'pptx' : ['ppt'],
-        'ppt' : ['odp'],
         'rtf' : ['odt'],
         'sdw' : ['odt'],
         'sxw' : ['odt'],
@@ -56,10 +57,9 @@ document_formats = {
         
 Con esto queda añadido el poder convertir de
 
-docx a odt
+docx a odt 
 docx a pdf
 docx a txt (probado)
-odp a pptx
 odt a docx
 pptx a ppt 
 ppt a odp
