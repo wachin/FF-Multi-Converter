@@ -498,7 +498,7 @@ class MainWindow(QMainWindow):
                          QT_VERSION_STR, PYQT_VERSION_STR, platform.system())
         image = ':/ffmulticonverter.png'
         authors = '{0} <{1}>\n\n'.format(ffmc.__author__, ffmc.__author_email__)
-        authors += 'Contributors:\nPanagiotis Mavrogiorgos'
+        authors += 'Contributors:\n- Panagiotis Mavrogiorgos\n- Washington Indacochea Delgado<wachin.id@gmail.com>'
         translators = []
         for i in config.translators:
             translators.append('{0}\n     {1}'.format(i[0], i[1]))
